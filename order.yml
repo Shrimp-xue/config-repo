@@ -11,6 +11,11 @@
 # #开启jps 的 sql
 #   jpa:
 #     show-sql: true
-# #当前项目端口
+# #注册eureka 服务
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
+# # #当前项目端口
 # server:
 #   port: 8082
