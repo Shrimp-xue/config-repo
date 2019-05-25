@@ -19,3 +19,5 @@ eureka:
 #当前项目端口
 server:
   port: 8082
+env:
+  dev
