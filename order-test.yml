@@ -11,6 +11,12 @@ spring:
 #开启jps 的 sql
   jpa:
     show-sql: true
+#配置rabbitmq相关信息
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: guest
+    username: guest
 # #注册eureka 服务
 # eureka:
 #   client:
